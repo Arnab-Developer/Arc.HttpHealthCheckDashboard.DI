@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Arc.HttpHealthCheckDashboard.DI</name>
+    </assembly>
+    <members>
+        <member name="T:Arc.HttpHealthCheckDashboard.DI.ServiceCollectionExtensions">
+            <summary>
+            Service collection extensions
+            </summary>
+        </member>
+        <member name="M:Arc.HttpHealthCheckDashboard.DI.ServiceCollectionExtensions.AddHttpHealthCheckDashboard(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Add http health check
+            </summary>
+            <param name="services">IServiceCollection type object</param>
+            <returns>IServiceCollection type object</returns>
+        </member>
+    </members>
+</doc>
