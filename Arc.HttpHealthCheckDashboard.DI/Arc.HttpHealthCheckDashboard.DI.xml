@@ -11,7 +11,7 @@
         </member>
         <member name="M:Arc.HttpHealthCheckDashboard.DI.ServiceCollectionExtensions.AddHttpHealthCheckDashboard(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
             <summary>
-            Add http health check
+            Add http health check dashboard
             </summary>
             <param name="services">IServiceCollection type object</param>
             <returns>IServiceCollection type object</returns>
