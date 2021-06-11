@@ -11,8 +11,8 @@
     <PackageProjectUrl>https://github.com/Arnab-Developer/Arc.HttpHealthCheckDashboard.DI</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Arnab-Developer/Arc.HttpHealthCheckDashboard.DI</RepositoryUrl>
     <PackageTags>dot-net,http-health-check,c-sharp,DI</PackageTags>
-    <PackageReleaseNotes>HTTP health check dashboard DI for ASP.NET</PackageReleaseNotes>
-    <Version>1.0.0</Version>
+    <PackageReleaseNotes>Read urls from config</PackageReleaseNotes>
+    <Version>1.0.1</Version>
     <DocumentationFile>Arc.HttpHealthCheckDashboard.DI.xml</DocumentationFile>
   </PropertyGroup>
 
