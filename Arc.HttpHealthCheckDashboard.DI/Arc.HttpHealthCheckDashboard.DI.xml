@@ -9,11 +9,12 @@
             Service collection extensions
             </summary>
         </member>
-        <member name="M:Arc.HttpHealthCheckDashboard.DI.ServiceCollectionExtensions.AddHttpHealthCheckDashboard(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+        <member name="M:Arc.HttpHealthCheckDashboard.DI.ServiceCollectionExtensions.AddHttpHealthCheckDashboard(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
             <summary>
             Add http health check dashboard
             </summary>
             <param name="services">IServiceCollection type object</param>
+            <param name="configuration">IConfiguration type object</param>
             <returns>IServiceCollection type object</returns>
         </member>
     </members>

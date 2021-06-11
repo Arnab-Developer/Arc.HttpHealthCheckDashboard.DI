@@ -1,6 +1,8 @@
 ﻿using Arc.HttpHealthCheckDashboard.DI;
 using ArnabDeveloper.HttpHealthCheck;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Moq;
 using System;
 using Xunit;
 
@@ -12,7 +14,8 @@ namespace Arc.HttpHealthCheckDashboard.DITests
         public void Can_AddHttpHealthCheckDashboard_InjectDependency()
         {
             IServiceCollection services = new ServiceCollection();
-            services.AddHttpHealthCheckDashboard();
+            Mock<IConfiguration> configurationMock = new();
+            services.AddHttpHealthCheckDashboard(configurationMock.Object);
             IServiceProvider serviceProvider = services.BuildServiceProvider();
 
             IHealthCheck healthCheck = serviceProvider.GetRequiredService<IHealthCheck>();
