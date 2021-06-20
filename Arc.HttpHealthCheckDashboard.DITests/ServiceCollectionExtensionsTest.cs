@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Moq;
 using System;
+using System.Threading.Tasks;
 using Xunit;
 
 namespace Arc.HttpHealthCheckDashboard.DITests
@@ -11,7 +12,7 @@ namespace Arc.HttpHealthCheckDashboard.DITests
     public class ServiceCollectionExtensionsTest
     {
         [Fact]
-        public void Can_AddHttpHealthCheckDashboard_InjectDependency()
+        public async Task Can_AddHttpHealthCheckDashboard_InjectDependency()
         {
             IServiceCollection services = new ServiceCollection();
             Mock<IConfiguration> configurationMock = new();
@@ -20,14 +21,14 @@ namespace Arc.HttpHealthCheckDashboard.DITests
 
             IHealthCheck healthCheck = serviceProvider.GetRequiredService<IHealthCheck>();
             Assert.NotNull(healthCheck);
-            bool isGoogleHealthy = healthCheck.IsHealthy("http://google.com");
+            bool isGoogleHealthy = await healthCheck.IsHealthyAsync("http://google.com");
             Assert.True(isGoogleHealthy);
-            bool isMicrosoftHealthy = healthCheck.IsHealthy("http://microsoft.com");
+            bool isMicrosoftHealthy = await healthCheck.IsHealthyAsync("http://microsoft.com");
             Assert.True(isMicrosoftHealthy);
 
             ApiDetail apiDetail = new("google", "http://google.com", null, true);
             ICommonHealthCheck commonHealthCheck = serviceProvider.GetRequiredService<ICommonHealthCheck>();
-            bool isApiHealthy = commonHealthCheck.IsApiHealthy(apiDetail);
+            bool isApiHealthy = await commonHealthCheck.IsApiHealthyAsync(apiDetail);
             Assert.True(isApiHealthy);
         }
     }
