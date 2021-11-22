@@ -1,17 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31402.337
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arc.HttpHealthCheckDashboard.DI", "Arc.HttpHealthCheckDashboard.DI\Arc.HttpHealthCheckDashboard.DI.csproj", "{042C2ED1-5D34-4524-9CB6-DB9A29110CCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arc.HttpHealthCheckDashboard.DI", "Arc.HttpHealthCheckDashboard.DI\Arc.HttpHealthCheckDashboard.DI.csproj", "{042C2ED1-5D34-4524-9CB6-DB9A29110CCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arc.HttpHealthCheckDashboard.DITests", "Arc.HttpHealthCheckDashboard.DITests\Arc.HttpHealthCheckDashboard.DITests.csproj", "{8B3377C8-E03D-4B0F-A9A5-40D9B8975649}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arc.HttpHealthCheckDashboard.DITests", "Arc.HttpHealthCheckDashboard.DITests\Arc.HttpHealthCheckDashboard.DITests.csproj", "{8B3377C8-E03D-4B0F-A9A5-40D9B8975649}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{97DC705E-451C-4560-AD33-4C2D64343A3E}"
 	ProjectSection(SolutionItems) = preProject
 		.github\workflows\ci-cd.yml = .github\workflows\ci-cd.yml
-		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
-		CONTRIBUTING.md = CONTRIBUTING.md
 		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection

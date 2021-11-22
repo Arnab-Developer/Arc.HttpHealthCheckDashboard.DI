@@ -2,8 +2,6 @@
 using ArnabDeveloper.HttpHealthCheck.DI;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace Arc.HttpHealthCheckDashboard.DI
 {

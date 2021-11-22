@@ -3,8 +3,6 @@ using ArnabDeveloper.HttpHealthCheck;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Moq;
-using System;
-using System.Threading.Tasks;
 using Xunit;
 
 namespace Arc.HttpHealthCheckDashboard.DITests
