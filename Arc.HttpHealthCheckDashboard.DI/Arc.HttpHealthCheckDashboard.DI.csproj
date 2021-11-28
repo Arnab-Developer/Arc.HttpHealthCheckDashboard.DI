@@ -11,8 +11,8 @@
     <PackageProjectUrl>https://github.com/Arnab-Developer/Arc.HttpHealthCheckDashboard.DI</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Arnab-Developer/Arc.HttpHealthCheckDashboard.DI</RepositoryUrl>
     <PackageTags>dot-net,http-health-check,c-sharp,DI</PackageTags>
-    <PackageReleaseNotes>nuget readme</PackageReleaseNotes>
-    <Version>1.0.4</Version>
+    <PackageReleaseNotes>Update nuget readme</PackageReleaseNotes>
+    <Version>1.0.5</Version>
     <DocumentationFile>Arc.HttpHealthCheckDashboard.DI.xml</DocumentationFile>
     <PackageReadmeFile>NuGetReadme.md</PackageReadmeFile>
     <IncludeSymbols>true</IncludeSymbols>
@@ -21,8 +21,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Arc.HttpHealthCheckDashboard" Version="1.0.3" />
-    <PackageReference Include="ArnabDeveloper.HttpHealthCheck.DI" Version="1.0.4" />
+    <PackageReference Include="Arc.HttpHealthCheckDashboard" Version="1.0.4" />
+    <PackageReference Include="ArnabDeveloper.HttpHealthCheck.DI" Version="1.0.5" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="6.0.0" />
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1">

@@ -1,5 +1,2 @@
-This is a library for
-[http health check dashboard](https://github.com/Arnab-Developer/Arc.HttpHealthCheckDashboard) 
-DI for ASP.NET.
-
-Read more [here](https://github.com/Arnab-Developer/Arc.HttpHealthCheckDashboard.DI/blob/main/README.md).
+This is a library to add [http health check dashboard](https://www.nuget.org/packages/Arc.HttpHealthCheckDashboard) 
+into ASP.NET DI.
