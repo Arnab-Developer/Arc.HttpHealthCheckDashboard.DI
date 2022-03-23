@@ -47,7 +47,6 @@ jobs:
         uses: github/codeql-action/init@v1
         with:
           languages: csharp
-          queries: security
         
       - name: Autobuild
         uses: github/codeql-action/autobuild@v1
