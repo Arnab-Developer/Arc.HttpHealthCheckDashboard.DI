@@ -11,8 +11,8 @@
     <PackageProjectUrl>https://github.com/Arnab-Developer/Arc.HttpHealthCheckDashboard.DI</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Arnab-Developer/Arc.HttpHealthCheckDashboard.DI</RepositoryUrl>
     <PackageTags>dot-net,http-health-check,c-sharp,DI</PackageTags>
-    <PackageReleaseNotes>Update nuget packages, codeql analysis</PackageReleaseNotes>
-    <Version>1.0.6</Version>
+    <PackageReleaseNotes>Copyright update</PackageReleaseNotes>
+    <Version>1.0.7</Version>
     <DocumentationFile>Arc.HttpHealthCheckDashboard.DI.xml</DocumentationFile>
     <PackageReadmeFile>NuGetReadme.md</PackageReadmeFile>
     <IncludeSymbols>true</IncludeSymbols>
