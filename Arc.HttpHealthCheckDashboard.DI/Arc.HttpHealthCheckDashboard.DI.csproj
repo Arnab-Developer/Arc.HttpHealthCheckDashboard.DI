@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Authors>Arnab Roy Chowdhury</Authors>
     <Description>HTTP health check dashboard DI for ASP.NET</Description>
-    <Copyright>Copyright (c) 2021 Arnab Roy Chowdhury</Copyright>
+    <Copyright>Copyright (c) 2022 Arnab Roy Chowdhury</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/Arnab-Developer/Arc.HttpHealthCheckDashboard.DI</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Arnab-Developer/Arc.HttpHealthCheckDashboard.DI</RepositoryUrl>
