@@ -60,7 +60,7 @@ jobs:
     needs: [build-test, codeql-analysis]
     name: GitHub nuget push
     permissions:
-      security-events: write
+      packages: write
     steps:
     - name: Checkout code
       uses: actions/checkout@v2 
